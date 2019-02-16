@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243060F32218240D004926EB /* colorPicker_Swift.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 243060F22218240D004926EB /* colorPicker_Swift.xcworkspace */; };
 		2438AA662215E74600096BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438AA652215E74600096BB9 /* AppDelegate.swift */; };
 		2438AA682215E74600096BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438AA672215E74600096BB9 /* ViewController.swift */; };
 		2438AA6B2215E74600096BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2438AA692215E74600096BB9 /* Main.storyboard */; };
@@ -24,6 +25,10 @@
 		2438AAB72215ECDB00096BB9 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438AAB52215ECDB00096BB9 /* SegueHandlerType.swift */; };
 		2438AAB82215ECDB00096BB9 /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438AAB52215ECDB00096BB9 /* SegueHandlerType.swift */; };
 		2438AABE2218117400096BB9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2438AABD2218117400096BB9 /* Colors.xcassets */; };
+		248AB8B122181E1A00A31B4D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 248AB8B022181E1A00A31B4D /* Podfile */; };
+		580CD69CB2536C79B7350564 /* Pods_colorPicker_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B97F76F5E7D4B51D2FF96F /* Pods_colorPicker_SwiftTests.framework */; };
+		E8BCA8270B13AF46BCEAF767 /* Pods_colorPicker_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34CB27EDDC2034DA7092BF8 /* Pods_colorPicker_SwiftUITests.framework */; };
+		FD1B41BCC21D3F77E52D2517 /* Pods_colorPicker_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1BD00B6FEF1C1E85BDBD83 /* Pods_colorPicker_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232CEDBFE5E8FA5A5DDE7806 /* Pods-colorPicker_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_Swift.debug.xcconfig"; path = "Target Support Files/Pods-colorPicker_Swift/Pods-colorPicker_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		243060F22218240D004926EB /* colorPicker_Swift.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = colorPicker_Swift.xcworkspace; sourceTree = "<group>"; };
 		2438AA622215E74600096BB9 /* colorPicker_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorPicker_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2438AA652215E74600096BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2438AA672215E74600096BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +68,15 @@
 		2438AAB12215EC2100096BB9 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		2438AAB52215ECDB00096BB9 /* SegueHandlerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
 		2438AABD2218117400096BB9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		248AB8B022181E1A00A31B4D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33C8D395BBA21317990F4FA3 /* Pods-colorPicker_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-colorPicker_SwiftUITests/Pods-colorPicker_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1BD00B6FEF1C1E85BDBD83 /* Pods_colorPicker_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorPicker_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6F1B6A3451905A5B4D21D1 /* Pods-colorPicker_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_Swift.release.xcconfig"; path = "Target Support Files/Pods-colorPicker_Swift/Pods-colorPicker_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		598BC8EEAB313B9CBA0E51C6 /* Pods-colorPicker_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-colorPicker_SwiftUITests/Pods-colorPicker_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85B97F76F5E7D4B51D2FF96F /* Pods_colorPicker_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorPicker_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BF48E71C9158F2940F5702 /* Pods-colorPicker_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_SwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-colorPicker_SwiftTests/Pods-colorPicker_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4C680ABC8AFFB4911011EB9 /* Pods-colorPicker_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorPicker_SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-colorPicker_SwiftTests/Pods-colorPicker_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		C34CB27EDDC2034DA7092BF8 /* Pods_colorPicker_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorPicker_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1B41BCC21D3F77E52D2517 /* Pods_colorPicker_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580CD69CB2536C79B7350564 /* Pods_colorPicker_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BCA8270B13AF46BCEAF767 /* Pods_colorPicker_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,10 +110,14 @@
 		2438AA592215E74600096BB9 = {
 			isa = PBXGroup;
 			children = (
+				243060F22218240D004926EB /* colorPicker_Swift.xcworkspace */,
+				248AB8B022181E1A00A31B4D /* Podfile */,
 				2438AA642215E74600096BB9 /* colorPicker_Swift */,
 				2438AA792215E74700096BB9 /* colorPicker_SwiftTests */,
 				2438AA842215E74700096BB9 /* colorPicker_SwiftUITests */,
 				2438AA632215E74600096BB9 /* Products */,
+				7AA06D2066F7674194F3520E /* Pods */,
+				53EEB031A7C0EB8ADB2976ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +166,29 @@
 			path = colorPicker_SwiftUITests;
 			sourceTree = "<group>";
 		};
+		53EEB031A7C0EB8ADB2976ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BD00B6FEF1C1E85BDBD83 /* Pods_colorPicker_Swift.framework */,
+				85B97F76F5E7D4B51D2FF96F /* Pods_colorPicker_SwiftTests.framework */,
+				C34CB27EDDC2034DA7092BF8 /* Pods_colorPicker_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AA06D2066F7674194F3520E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				232CEDBFE5E8FA5A5DDE7806 /* Pods-colorPicker_Swift.debug.xcconfig */,
+				4B6F1B6A3451905A5B4D21D1 /* Pods-colorPicker_Swift.release.xcconfig */,
+				93BF48E71C9158F2940F5702 /* Pods-colorPicker_SwiftTests.debug.xcconfig */,
+				A4C680ABC8AFFB4911011EB9 /* Pods-colorPicker_SwiftTests.release.xcconfig */,
+				33C8D395BBA21317990F4FA3 /* Pods-colorPicker_SwiftUITests.debug.xcconfig */,
+				598BC8EEAB313B9CBA0E51C6 /* Pods-colorPicker_SwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2438AA8A2215E74700096BB9 /* Build configuration list for PBXNativeTarget "colorPicker_Swift" */;
 			buildPhases = (
+				19843D3F30EB2870EFB06640 /* [CP] Check Pods Manifest.lock */,
 				2438AA5E2215E74600096BB9 /* Sources */,
 				2438AA5F2215E74600096BB9 /* Frameworks */,
 				2438AA602215E74600096BB9 /* Resources */,
+				6A3D1FDA0B607B7318ADA8AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2438AA8D2215E74700096BB9 /* Build configuration list for PBXNativeTarget "colorPicker_SwiftTests" */;
 			buildPhases = (
+				8DAF5EBCAE8F5D0E9211DB18 /* [CP] Check Pods Manifest.lock */,
 				2438AA722215E74700096BB9 /* Sources */,
 				2438AA732215E74700096BB9 /* Frameworks */,
 				2438AA742215E74700096BB9 /* Resources */,
@@ -185,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2438AA902215E74700096BB9 /* Build configuration list for PBXNativeTarget "colorPicker_SwiftUITests" */;
 			buildPhases = (
+				CD5077A019C21A50496DD0E4 /* [CP] Check Pods Manifest.lock */,
 				2438AA7D2215E74700096BB9 /* Sources */,
 				2438AA7E2215E74700096BB9 /* Frameworks */,
 				2438AA7F2215E74700096BB9 /* Resources */,
@@ -250,9 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				248AB8B122181E1A00A31B4D /* Podfile in Resources */,
 				2438AA702215E74600096BB9 /* LaunchScreen.storyboard in Resources */,
 				2438AABE2218117400096BB9 /* Colors.xcassets in Resources */,
 				2438AA6D2215E74600096BB9 /* Assets.xcassets in Resources */,
+				243060F32218240D004926EB /* colorPicker_Swift.xcworkspace in Resources */,
 				2438AA6B2215E74600096BB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +324,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19843D3F30EB2870EFB06640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorPicker_Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3D1FDA0B607B7318ADA8AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colorPicker_Swift/Pods-colorPicker_Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-colorPicker_Swift/Pods-colorPicker_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAF5EBCAE8F5D0E9211DB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorPicker_SwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5077A019C21A50496DD0E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorPicker_SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2438AA5E2215E74600096BB9 /* Sources */ = {
@@ -452,6 +595,7 @@
 		};
 		2438AA8B2215E74700096BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232CEDBFE5E8FA5A5DDE7806 /* Pods-colorPicker_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +611,7 @@
 		};
 		2438AA8C2215E74700096BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6F1B6A3451905A5B4D21D1 /* Pods-colorPicker_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +627,7 @@
 		};
 		2438AA8E2215E74700096BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BF48E71C9158F2940F5702 /* Pods-colorPicker_SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +645,7 @@
 		};
 		2438AA8F2215E74700096BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C680ABC8AFFB4911011EB9 /* Pods-colorPicker_SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +663,7 @@
 		};
 		2438AA912215E74700096BB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C8D395BBA21317990F4FA3 /* Pods-colorPicker_SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +680,7 @@
 		};
 		2438AA922215E74700096BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598BC8EEAB313B9CBA0E51C6 /* Pods-colorPicker_SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
