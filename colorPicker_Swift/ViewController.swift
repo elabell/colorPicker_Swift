@@ -57,9 +57,8 @@ class ViewController: UIViewController, ColorPickerViewDelegate, SegueHandlerTyp
     // ColorPickerViewDelegate
     func userDidChooseColor(color: UIColor, withName colorName: String) {
         
-        
         self.view.backgroundColor = color
-        btnPickColor.backgroundColor = color
+        //btnPickColor.backgroundColor = color
         labelCurrentColor.text = colorName
         
         // colorBackgr = color
@@ -67,14 +66,12 @@ class ViewController: UIViewController, ColorPickerViewDelegate, SegueHandlerTyp
         //dismiss back to previous view
         self.dismiss(animated: true, completion: nil)
         
-        let alertVC = UIAlertController(title: "Attention", message: "Do you want to save current color of backgraund?", preferredStyle: .alert)
+        let alertVC = UIAlertController(title: "Attention", message: "Do you want to save current background color ?", preferredStyle: .alert)
         
         let actionY = UIAlertAction(title: "YES", style: .default, handler: nil)
         let actionN = UIAlertAction(title: "NO", style: .cancel, handler: {(action: UIAlertAction!) in
             
-            self.animate2()
-            // animate(120,)
-            // self.view.backgroundColor = self.colorBackgr
+        self.animate()
             
         })
         alertVC.addAction(actionY)
@@ -84,31 +81,20 @@ class ViewController: UIViewController, ColorPickerViewDelegate, SegueHandlerTyp
     }
     
     
-    /* func animate(withDuration duration:
-     TimeInterval, animations: @escaping () -> Void, completion: ((Bool) -> Void)? = nil){
-     
-     
-     self.view.backgroundColor = self.colorBackgr
-     
-     
-     }
-     */
-    func animate2(){
+
+    func animate(){
         
-     /*   UIView.animate(withDuration: 22,
-                       options: [UIView.AnimationOptions.Repeat, UIView.AnimationOptions.Autoreverse],
-                       animations:{() -> Void in self.view.backgroundColor = self.colorBackgr },
-                       completion: nil)
-       */
+       UIView.animate(withDuration: 7, delay: 1, options:[UIViewAnimationOptions.allowUserInteraction, ], animations: {
+        //    UIViewAnimationOptions.autoreverse
+            self.view.backgroundColor = self.colorBackgr
+            self.labelCurrentColor.text = "";
+          //  let purpleTrans = UIColor.colorWithAlphaComponent(purple)(0.5)
+
+        }, completion: nil)
+        
+        
     }
-    
-    /*
-     UIView.animate(withDuration: 22,
-     options: [UIView.AnimationOptions.Repeat, UIView.AnimationOptions.Autoreverse],
-     animations:{@escaping() -> Void in self.view.backgroundColor = self.colorBackgr },
-     completion: nil)
-     
-     */
+   
     
 
 
